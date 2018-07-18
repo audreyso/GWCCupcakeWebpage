@@ -19,7 +19,7 @@ var myImage = document.querySelector('img');
 myImage.onclick = function() {
 	var mySrc = myImage.getAttribute('src');
 	if(mySrc === 'images/cupcake1.jpg') {
-      myImage.setAttribute ('src','images/cupcake3.jpg');
+      	  myImage.setAttribute ('src','images/cupcake3.jpg');
 	} else {
 	  myImage.setAttribute ('src','images/cupcake1.jpg');
 	}
